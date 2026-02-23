@@ -1,0 +1,25 @@
+name: mulligan-machine
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - aiohttp>=3.9
+      - beautifulsoup4>=4.12
+      - hdbscan>=0.8.41
+      - huggingface-hub>=1.0
+      - lxml>=5.0
+      - numpy>=2.0
+      - pandas>=2.0
+      - plotly>=6.0
+      - pytorch-lightning>=2.6
+      - pyyaml>=6.0
+      - requests>=2.31
+      - rich>=13.0
+      - scikit-learn>=1.4
+      - scipy>=1.12
+      - sentence-transformers>=5.0
+      - torch>=2.5
+      - tqdm>=4.66
+      - umap-learn>=0.5.11
